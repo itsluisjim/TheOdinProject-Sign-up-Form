@@ -17,45 +17,45 @@
         </div>
         <div class="right-side">
             <p class="instructions">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni vitae eaque voluptatum consequatur voluptates minima ratione aut. Molestiae nihil ab, recusandae soluta minima sit, cumque laudantium, possimus distinctio maiores ea!</p>
-            <form action="" method="get" class="signup-form" id="form">
+            <form action='#' class="signup-form" id="pledge-form">
                 <h2 class="form-title">Fill out the form!</h2>
 
                 <div>
                     <label for="name">First</label>
-                    <input type="text" name="name" id="">
+                    <input type="text" name="name" id="first" required>
                 </div>
                 
                 <div>
-                    <label for="name">Last</label>
-                    <input type="text" name="last" id="">
+                    <label for="last">Last</label>
+                    <input type="text" name="last" id="last" required>
                 </div>
                 
                 <div>
-                    <label for="name">Email</label>
-                    <input type="email" name="email" id="">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
                 </div>
                 
 
                 <div>
-                    <label for="name">Phone</label>
-                    <input type="tel" name="phone" id="" maxlength="9">
+                    <label for="phone">Phone</label>
+                    <input type="tel" name="phone" id="phone" maxlength="9" required>
                 </div>
                
                 <div>
-                    <label for="name">Password</label>
-                    <input type="password" name="password" id="">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
                 </div>
                
                 <div>
-                    <label for="name">Confirm Password</label>
-                    <input type="password" name="confirm-pwd" id="">
+                    <label for="confirm-pwd">Confirm Password</label>
+                    <input type="password" name="confirm-pwd" id="confirm-pwd" required>
                 </div>
                 
             </form>
-            <input type="button" value="submit" for="form">
+            <button id='submit-btn' type="submit" for="pledge-form">submit</button>
             <p>Aleady have an account? <a href="#">Log in</a></p>
         </div>
     </div>
-    <script src="./script.js" type="text/script"></script>
+    <script src="./script.js" type="text/javascript"></script>
 </body>
 </html>
